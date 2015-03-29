@@ -13,9 +13,9 @@ using namespace std;
 /**
  * 替换字符串中的某个字符， 全部替换
  *
- * @param string find , 需要被替换的字符，暂时只支持 1 个字符，
- * @param string replace , 用于替换的字符，暂时只支持 1 个字符，
- * @param string str , 被替换的字符串，暂时只支持 1 个字符，
+ * @param string find , 需要被替换的字符，暂时只支持 1 个字符
+ * @param string replace , 用于替换的字符，暂时只支持 1 个字符
+ * @param string str , 被替换的字符串
  */
 string str_replace(string find, string replace, string str){
     
