@@ -36,8 +36,7 @@ void combine2( long n, long m,  vector<long> b){
         } else {
 
             // m == 1, 输出一个组合
-            // b 用来存储当前组合中的元素(这里存储的是元素下标)
-            
+
             for ( long i = b.size() -1; i >= 0 ; i--) {
                 cout << b[i] << " ";
             }
